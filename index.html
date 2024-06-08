@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flow State Todo App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2 class="title">Flow State Todo App</h2>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add your task" />
+          <select id="task-difficulty" class="todo-input">
+            <option value="green">Green (Easy)</option>
+            <option value="orange">Orange (Moderate)</option>
+            <option value="red">Red (Hard)</option>
+          </select>
+          <button onclick="addTask()">Add</button>
+        </div>
+        <div class="progress-container">
+          <div class="progress-bar" id="progress-bar">
+            <span id="progress-text">0%</span>
+          </div>
+        </div>
+        <div class="listContainer">
+          <div class="taskCategory taskCategoryHeader">
+            <h3>Time Slots Info</h3>
+            <ul class="list-group">
+              <p class="list-group-item">
+                <strong>Red Tasks (Hard)</strong>: Available between 08:00 -
+                12:00
+              </p>
+              <p class="list-group-item">
+                <strong>Orange Tasks (Moderate)</strong>: Available between
+                12:00 - 15:00
+              </p>
+              <p class="list-group-item">
+                <strong>Green Tasks (Easy)</strong>: Available between 15:00 -
+                17:00
+              </p>
+            </ul>
+          </div>
+          <div class="taskCategory taskCategoryRed">
+            <h3>Red Tasks (Hard)</h3>
+            <ul id="red-tasks" class="list-group task-list"></ul>
+          </div>
+          <div class="taskCategory taskCategoryOrange">
+            <h3>Orange Tasks (Moderate)</h3>
+            <ul id="orange-tasks" class="list-group task-list"></ul>
+          </div>
+          <div class="taskCategory taskCategoryGreen">
+            <h3>Green Tasks (Easy)</h3>
+            <ul id="green-tasks" class="list-group task-list"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
