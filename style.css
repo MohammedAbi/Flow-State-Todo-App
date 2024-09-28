@@ -195,3 +195,42 @@ ul li span:hover {
   border-bottom: 2px solid #8c45ff;
   padding: 10px 0 20px;
 }
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: whitesmoke;
+  border-radius: 30px;
+  padding: 10px; /* Adjusted for consistent padding */
+  margin-bottom: 25px;
+}
+
+input,
+select,
+button {
+  flex: 1;
+  margin-right: 2px;
+}
+
+button {
+  flex-shrink: 0;
+}
+
+@media (max-width: 560px) {
+  .row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  input,
+  select,
+  button {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  button {
+    padding: 12px;
+  }
+}
