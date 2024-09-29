@@ -33,3 +33,8 @@ This app is based on Mihaly Csikszentmihalyi's theory of flow, which emphasizes 
 2. Navigate into the project directory: cd flow-state-todo-app
 
 3. Open index.html in your favorite web browser.
+
+
+## Resources and Thanks
+
+A special thanks to **GreatStack** for the code inspiration, which significantly shaped the development of this app. The app's code is based on their video: [How To Create To-Do List App Using HTML CSS And JavaScript | Task App In JavaScript](https://youtu.be/G0jO8kUrg-I?si=X9Q3IICs6u4oDP_Z).
