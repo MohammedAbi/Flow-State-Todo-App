@@ -3,6 +3,7 @@
 <img width="1509" alt="Image" src="https://github.com/user-attachments/assets/0cce456e-6612-4be2-996b-c90fccd1095b" />
 This image showcases the Flow State Todo App!
 
+
 This is a Todo application designed to help users manage tasks based on their current flow state and the difficulty of the tasks. The app categorizes tasks into three levels: Green (Easy), Orange (Moderate), and Red (Hard). Tasks are displayed and interacted with based on the user's optimal times for different levels of difficulty.
 
 ## Features
