@@ -1,5 +1,8 @@
 # Flow State Todo App
 
+<img width="1509" alt="Image" src="https://github.com/user-attachments/assets/0cce456e-6612-4be2-996b-c90fccd1095b" />
+This image showcases the Flow State Todo App!
+
 This is a Todo application designed to help users manage tasks based on their current flow state and the difficulty of the tasks. The app categorizes tasks into three levels: Green (Easy), Orange (Moderate), and Red (Hard). Tasks are displayed and interacted with based on the user's optimal times for different levels of difficulty.
 
 ## Features
@@ -36,5 +39,12 @@ This app is based on Mihaly Csikszentmihalyi's theory of flow, which emphasizes 
 
 
 ## Resources and Thanks
+
+**Hosted On netlify:**  
+[Flow State Todo App](https://flow-state-todo-app.netlify.app/)
+
+
+**GitHub Repository:**
+[Flow State Todo App](https://github.com/MohammedAbi/Flow-State-Todo-App)
 
 A special thanks to **GreatStack** for the code inspiration, which significantly shaped the development of this app. The app's code is based on their video: [How To Create To-Do List App Using HTML CSS And JavaScript | Task App In JavaScript](https://youtu.be/G0jO8kUrg-I?si=X9Q3IICs6u4oDP_Z).
